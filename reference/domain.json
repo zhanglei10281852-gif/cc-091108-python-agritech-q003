@@ -1,0 +1,12 @@
+{
+  "domain": "crop-spraying",
+  "field": {"id": "FIELD-204", "crop": "水稻", "boundary": [[120.101, 30.201], [120.105, 30.201], [120.105, 30.205], [120.101, 30.205], [120.101, 30.201]]},
+  "sensitive_areas": [
+    {"id": "APIARY-8", "kind": "蜂场", "buffer_m": 120, "point": [120.106, 30.203]}
+  ],
+  "chemical_label": {"chemical_id": "CHEM-A17", "crop": "水稻", "min_ml_per_mu": 18, "max_ml_per_mu": 25, "reentry_hours": 24},
+  "track_points": [
+    {"point_id": "P-2", "device_at": "2026-09-11T09:00:02+08:00", "received_at": "2026-09-11T10:15:00+08:00", "position": [120.102, 30.202], "tank_id": "TANK-01"},
+    {"point_id": "P-1", "device_at": "2026-09-11T09:00:01+08:00", "received_at": "2026-09-11T10:15:01+08:00", "position": [120.1015, 30.202], "tank_id": "TANK-01"}
+  ]
+}

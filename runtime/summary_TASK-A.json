@@ -1,0 +1,9 @@
+{
+  "task_id": "TASK-A",
+  "ledger_head": "032496e55f01755b543a6b28e65c38706fa6399b5b960b2a83ff3f8f6b5ca975",
+  "event_count": 43,
+  "seal_hash": "fb82b85cbf521e22f8a6bf044181055edab1731bed8fe7afa8df8ef30e6c8399",
+  "addendum_hashes": [],
+  "rx_snapshot_hash": "c4ba96b0d28b3eed2680cb15309fc9118c64bfe714f62800fa98c1556a034d97",
+  "exported_for_verification": true
+}

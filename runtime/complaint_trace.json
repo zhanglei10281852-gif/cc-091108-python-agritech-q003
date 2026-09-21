@@ -1,0 +1,283 @@
+{
+  "complaint_id": "COMP-9",
+  "allegation": "蜂群大量死亡，怀疑 9 月 12 日喷洒侵入蜂场缓冲带",
+  "task_id": "TASK-B",
+  "parent_task_id": null,
+  "child_reflight_tasks": [
+    "TASK-C"
+  ],
+  "declaration": {
+    "declaration_id": "DECL-01",
+    "field_id": "FIELD-204",
+    "crop": "水稻",
+    "applicant": "种植户-赵某"
+  },
+  "prescription": {
+    "rx_id": "RX-B",
+    "reviewer": "县植保站-王审签",
+    "approved_at": "2026-09-10T16:30:00+08:00",
+    "snapshot_hash": "2af949f23b3897f9168f35e7484954785bfc005d2e8dd9ade6dcb73cda2f05ba",
+    "chemical_id": "CHEM-A17",
+    "approved_batches": [
+      "BATCH-2601",
+      "BATCH-2602"
+    ],
+    "reentry_hours": 24
+  },
+  "legs": [
+    {
+      "leg_id": "B-L1",
+      "status": "RECALLED",
+      "planned_area_mu": 6.5,
+      "covered_mu": 1.722,
+      "findings": {
+        "BOUNDARY_EXCURSION": [
+          {
+            "from_point": "B-005",
+            "to_point": "B-006",
+            "from_at": "2026-09-12T07:40:20+08:00",
+            "to_at": "2026-09-12T07:40:25+08:00",
+            "estimated_outside_m": 38.44,
+            "from_position": [
+              120.1044,
+              30.203
+            ],
+            "to_position": [
+              120.1052,
+              30.203
+            ]
+          },
+          {
+            "from_point": "B-006",
+            "to_point": "B-007",
+            "from_at": "2026-09-12T07:40:25+08:00",
+            "to_at": "2026-09-12T07:40:30+08:00",
+            "estimated_outside_m": 124.93,
+            "from_position": [
+              120.1052,
+              30.203
+            ],
+            "to_position": [
+              120.1065,
+              30.203
+            ]
+          },
+          {
+            "from_point": "B-007",
+            "to_point": "B-008",
+            "from_at": "2026-09-12T07:40:30+08:00",
+            "to_at": "2026-09-12T07:40:35+08:00",
+            "estimated_outside_m": 124.93,
+            "from_position": [
+              120.1065,
+              30.203
+            ],
+            "to_position": [
+              120.1052,
+              30.203
+            ]
+          },
+          {
+            "from_point": "B-008",
+            "to_point": "B-009",
+            "from_at": "2026-09-12T07:40:35+08:00",
+            "to_at": "2026-09-12T07:40:40+08:00",
+            "estimated_outside_m": 38.44,
+            "from_position": [
+              120.1052,
+              30.203
+            ],
+            "to_position": [
+              120.1044,
+              30.203
+            ]
+          }
+        ],
+        "BUFFER_INTRUSION": [
+          {
+            "sensitive_id": "APIARY-8",
+            "kind": "蜂场",
+            "buffer_m": 120,
+            "from_point": "B-005",
+            "to_point": "B-006",
+            "from_at": "2026-09-12T07:40:20+08:00",
+            "to_at": "2026-09-12T07:40:25+08:00",
+            "nearest_m": 76.88,
+            "encroachment_m": 43.12
+          },
+          {
+            "sensitive_id": "APIARY-8",
+            "kind": "蜂场",
+            "buffer_m": 120,
+            "from_point": "B-006",
+            "to_point": "B-007",
+            "from_at": "2026-09-12T07:40:25+08:00",
+            "to_at": "2026-09-12T07:40:30+08:00",
+            "nearest_m": 48.05,
+            "encroachment_m": 71.95
+          },
+          {
+            "sensitive_id": "APIARY-8",
+            "kind": "蜂场",
+            "buffer_m": 120,
+            "from_point": "B-007",
+            "to_point": "B-008",
+            "from_at": "2026-09-12T07:40:30+08:00",
+            "to_at": "2026-09-12T07:40:35+08:00",
+            "nearest_m": 48.05,
+            "encroachment_m": 71.95
+          },
+          {
+            "sensitive_id": "APIARY-8",
+            "kind": "蜂场",
+            "buffer_m": 120,
+            "from_point": "B-008",
+            "to_point": "B-009",
+            "from_at": "2026-09-12T07:40:35+08:00",
+            "to_at": "2026-09-12T07:40:40+08:00",
+            "nearest_m": 76.88,
+            "encroachment_m": 43.12
+          }
+        ],
+        "TIME_REVERSAL": [
+          {
+            "point_id": "B-006",
+            "device_at": "2026-09-12T07:40:25+08:00",
+            "previous_device_at": "2026-09-12T07:40:30+08:00",
+            "sync_batch": "SYNC-B-1",
+            "detail": "同一同步批次内设备时间早于其前一记录（时钟倒退），单独呈现"
+          }
+        ],
+        "DOSE_ANOMALY": [
+          {
+            "point_id": "B-007",
+            "device_at": "2026-09-12T07:40:30+08:00",
+            "dose_ml_per_mu": 40.0,
+            "allowed": [
+              18,
+              25
+            ],
+            "kind": "ABOVE_LABEL"
+          }
+        ],
+        "BATCH_MISMATCH": [
+          {
+            "point_id": "B-008",
+            "tank_id": "TANK-09",
+            "batch_id": "BATCH-777",
+            "device_at": "2026-09-12T07:40:35+08:00"
+          },
+          {
+            "point_id": "B-009",
+            "tank_id": "TANK-09",
+            "batch_id": "BATCH-777",
+            "device_at": "2026-09-12T07:40:40+08:00"
+          },
+          {
+            "point_id": "B-010",
+            "tank_id": "TANK-09",
+            "batch_id": "BATCH-777",
+            "device_at": "2026-09-12T07:40:45+08:00"
+          },
+          {
+            "point_id": "B-011",
+            "tank_id": "TANK-09",
+            "batch_id": "BATCH-777",
+            "device_at": "2026-09-12T07:40:50+08:00"
+          }
+        ],
+        "UNKNOWN_TANK": []
+      },
+      "nearest_sensitive": [
+        {
+          "sensitive_id": "APIARY-8",
+          "kind": "蜂场",
+          "buffer_m": 120,
+          "nearest_m": 48.05,
+          "clearance_m": -71.95
+        }
+      ],
+      "decision_events": [
+        {
+          "kind": "RECALL_DECIDED",
+          "task_id": "TASK-B",
+          "leg_id": "B-L1",
+          "at": "2026-09-12T08:06:00+08:00",
+          "decision": "RETURN",
+          "decided_by": "飞手-陈某",
+          "note": "发现航线接近蜂场，操纵返航"
+        }
+      ]
+    }
+  ],
+  "tank_swaps": [
+    {
+      "leg_id": "B-L1",
+      "at": "2026-09-12T07:40:35+08:00",
+      "from_tank": "TANK-03",
+      "to_tank": "TANK-09",
+      "point_id": "B-008",
+      "batch_after": "BATCH-777"
+    }
+  ],
+  "usage_ml_by_batch": {
+    "BATCH-2601": 26.0,
+    "BATCH-777": 12.0
+  },
+  "seal": {
+    "seal_hash": "73d894c512eab8487b37b161cb9b6dd2c32443eef29a75a172acd48d2534dd20",
+    "head_hash": "2682d00361f3e1a532e6619be59d0b64b8445a4784409754a37516c31fd9ce3d",
+    "sealed_at": "2026-09-12T10:00:00+08:00",
+    "sealed_by": "县植保站-王审签"
+  },
+  "addenda": [
+    {
+      "addendum_hash": "50ed49d93721bb6f898bf81d66d9d3b206aea545a3fcf9f4276368a9b7b9d39e",
+      "recorded_at": "2026-09-12T18:30:00+08:00",
+      "legs": [
+        {
+          "leg_id": "B-L1",
+          "new_point_ids": [
+            "B-012",
+            "B-013"
+          ],
+          "findings": {
+            "BOUNDARY_EXCURSION": [],
+            "BUFFER_INTRUSION": [],
+            "TIME_REVERSAL": [],
+            "DOSE_ANOMALY": [
+              {
+                "point_id": null,
+                "device_at": null,
+                "dose_ml_per_mu": 33.33,
+                "allowed": [
+                  18,
+                  25
+                ],
+                "kind": "LEG_TOTAL_ABOVE_LABEL",
+                "total_spray_ml": 6.0,
+                "covered_mu": 0.18
+              }
+            ],
+            "BATCH_MISMATCH": [
+              {
+                "point_id": "B-012",
+                "tank_id": "TANK-09",
+                "batch_id": "BATCH-777",
+                "device_at": "2026-09-12T07:40:55+08:00"
+              },
+              {
+                "point_id": "B-013",
+                "tank_id": "TANK-09",
+                "batch_id": "BATCH-777",
+                "device_at": "2026-09-12T07:41:00+08:00"
+              }
+            ],
+            "UNKNOWN_TANK": []
+          }
+        }
+      ]
+    }
+  ],
+  "ledger_head": "032496e55f01755b543a6b28e65c38706fa6399b5b960b2a83ff3f8f6b5ca975"
+}

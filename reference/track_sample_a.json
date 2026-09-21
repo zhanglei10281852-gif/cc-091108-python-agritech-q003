@@ -1,0 +1,1190 @@
+[
+  {
+    "point_id": "A-001",
+    "device_at": "2026-09-11T08:00:10+08:00",
+    "received_at": "2026-09-11T09:35:00+08:00",
+    "position": [
+      120.1015,
+      30.2017
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-002",
+    "device_at": "2026-09-11T08:00:14+08:00",
+    "received_at": "2026-09-11T09:35:01+08:00",
+    "position": [
+      120.1018,
+      30.2017
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-003",
+    "device_at": "2026-09-11T08:00:18+08:00",
+    "received_at": "2026-09-11T09:35:02+08:00",
+    "position": [
+      120.1021,
+      30.2017
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-004",
+    "device_at": "2026-09-11T08:00:22+08:00",
+    "received_at": "2026-09-11T09:35:03+08:00",
+    "position": [
+      120.1024,
+      30.2017
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-005",
+    "device_at": "2026-09-11T08:00:26+08:00",
+    "received_at": "2026-09-11T09:35:04+08:00",
+    "position": [
+      120.1027,
+      30.2017
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-006",
+    "device_at": "2026-09-11T08:00:30+08:00",
+    "received_at": "2026-09-11T09:35:05+08:00",
+    "position": [
+      120.103,
+      30.2017
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-007",
+    "device_at": "2026-09-11T08:00:34+08:00",
+    "received_at": "2026-09-11T09:35:06+08:00",
+    "position": [
+      120.1033,
+      30.2017
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-008",
+    "device_at": "2026-09-11T08:00:38+08:00",
+    "received_at": "2026-09-11T09:35:07+08:00",
+    "position": [
+      120.1036,
+      30.2017
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-009",
+    "device_at": "2026-09-11T08:00:42+08:00",
+    "received_at": "2026-09-11T09:35:08+08:00",
+    "position": [
+      120.1039,
+      30.2017
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-010",
+    "device_at": "2026-09-11T08:00:46+08:00",
+    "received_at": "2026-09-11T09:35:09+08:00",
+    "position": [
+      120.1042,
+      30.2017
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-011",
+    "device_at": "2026-09-11T08:00:50+08:00",
+    "received_at": "2026-09-11T09:35:10+08:00",
+    "position": [
+      120.1045,
+      30.2017
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-012",
+    "device_at": "2026-09-11T08:00:54+08:00",
+    "received_at": "2026-09-11T09:35:11+08:00",
+    "position": [
+      120.1045,
+      30.202
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-013",
+    "device_at": "2026-09-11T08:00:58+08:00",
+    "received_at": "2026-09-11T09:35:12+08:00",
+    "position": [
+      120.1042,
+      30.202
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-014",
+    "device_at": "2026-09-11T08:01:02+08:00",
+    "received_at": "2026-09-11T09:35:13+08:00",
+    "position": [
+      120.1039,
+      30.202
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-015",
+    "device_at": "2026-09-11T08:01:06+08:00",
+    "received_at": "2026-09-11T09:35:14+08:00",
+    "position": [
+      120.1036,
+      30.202
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-016",
+    "device_at": "2026-09-11T08:01:10+08:00",
+    "received_at": "2026-09-11T09:35:15+08:00",
+    "position": [
+      120.1033,
+      30.202
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-017",
+    "device_at": "2026-09-11T08:01:14+08:00",
+    "received_at": "2026-09-11T09:35:16+08:00",
+    "position": [
+      120.103,
+      30.202
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-018",
+    "device_at": "2026-09-11T08:01:18+08:00",
+    "received_at": "2026-09-11T09:35:17+08:00",
+    "position": [
+      120.1027,
+      30.202
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-019",
+    "device_at": "2026-09-11T08:01:22+08:00",
+    "received_at": "2026-09-11T09:35:18+08:00",
+    "position": [
+      120.1024,
+      30.202
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-020",
+    "device_at": "2026-09-11T08:01:26+08:00",
+    "received_at": "2026-09-11T09:35:19+08:00",
+    "position": [
+      120.1021,
+      30.202
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-021",
+    "device_at": "2026-09-11T08:01:30+08:00",
+    "received_at": "2026-09-11T09:35:20+08:00",
+    "position": [
+      120.1018,
+      30.202
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-022",
+    "device_at": "2026-09-11T08:01:34+08:00",
+    "received_at": "2026-09-11T09:35:21+08:00",
+    "position": [
+      120.1015,
+      30.202
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-023",
+    "device_at": "2026-09-11T08:01:38+08:00",
+    "received_at": "2026-09-11T09:35:22+08:00",
+    "position": [
+      120.1015,
+      30.2023
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-024",
+    "device_at": "2026-09-11T08:01:42+08:00",
+    "received_at": "2026-09-11T09:35:23+08:00",
+    "position": [
+      120.1018,
+      30.2023
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-025",
+    "device_at": "2026-09-11T08:01:46+08:00",
+    "received_at": "2026-09-11T09:35:24+08:00",
+    "position": [
+      120.1021,
+      30.2023
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-026",
+    "device_at": "2026-09-11T08:01:50+08:00",
+    "received_at": "2026-09-11T09:35:25+08:00",
+    "position": [
+      120.1024,
+      30.2023
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-027",
+    "device_at": "2026-09-11T08:01:54+08:00",
+    "received_at": "2026-09-11T09:35:26+08:00",
+    "position": [
+      120.1027,
+      30.2023
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-028",
+    "device_at": "2026-09-11T08:01:58+08:00",
+    "received_at": "2026-09-11T09:35:27+08:00",
+    "position": [
+      120.103,
+      30.2023
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-029",
+    "device_at": "2026-09-11T08:02:02+08:00",
+    "received_at": "2026-09-11T09:35:28+08:00",
+    "position": [
+      120.1033,
+      30.2023
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-030",
+    "device_at": "2026-09-11T08:02:06+08:00",
+    "received_at": "2026-09-11T09:35:29+08:00",
+    "position": [
+      120.1036,
+      30.2023
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-031",
+    "device_at": "2026-09-11T08:02:10+08:00",
+    "received_at": "2026-09-11T09:35:30+08:00",
+    "position": [
+      120.1039,
+      30.2023
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-032",
+    "device_at": "2026-09-11T08:02:14+08:00",
+    "received_at": "2026-09-11T09:35:31+08:00",
+    "position": [
+      120.1042,
+      30.2023
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-033",
+    "device_at": "2026-09-11T08:02:18+08:00",
+    "received_at": "2026-09-11T09:35:32+08:00",
+    "position": [
+      120.1045,
+      30.2023
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-034",
+    "device_at": "2026-09-11T08:02:22+08:00",
+    "received_at": "2026-09-11T09:35:33+08:00",
+    "position": [
+      120.1045,
+      30.2026
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-035",
+    "device_at": "2026-09-11T08:02:26+08:00",
+    "received_at": "2026-09-11T09:35:34+08:00",
+    "position": [
+      120.1042,
+      30.2026
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-036",
+    "device_at": "2026-09-11T08:02:30+08:00",
+    "received_at": "2026-09-11T09:35:35+08:00",
+    "position": [
+      120.1039,
+      30.2026
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-037",
+    "device_at": "2026-09-11T08:02:34+08:00",
+    "received_at": "2026-09-11T09:35:36+08:00",
+    "position": [
+      120.1036,
+      30.2026
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-038",
+    "device_at": "2026-09-11T08:02:38+08:00",
+    "received_at": "2026-09-11T09:35:37+08:00",
+    "position": [
+      120.1033,
+      30.2026
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-039",
+    "device_at": "2026-09-11T08:02:42+08:00",
+    "received_at": "2026-09-11T09:35:38+08:00",
+    "position": [
+      120.103,
+      30.2026
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-040",
+    "device_at": "2026-09-11T08:02:46+08:00",
+    "received_at": "2026-09-11T09:35:39+08:00",
+    "position": [
+      120.1027,
+      30.2026
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-041",
+    "device_at": "2026-09-11T08:02:50+08:00",
+    "received_at": "2026-09-11T09:35:40+08:00",
+    "position": [
+      120.1024,
+      30.2026
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-042",
+    "device_at": "2026-09-11T08:02:54+08:00",
+    "received_at": "2026-09-11T09:35:41+08:00",
+    "position": [
+      120.1021,
+      30.2026
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-043",
+    "device_at": "2026-09-11T08:02:58+08:00",
+    "received_at": "2026-09-11T09:35:42+08:00",
+    "position": [
+      120.1018,
+      30.2026
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-044",
+    "device_at": "2026-09-11T08:03:02+08:00",
+    "received_at": "2026-09-11T09:35:43+08:00",
+    "position": [
+      120.1015,
+      30.2026
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-045",
+    "device_at": "2026-09-11T08:03:06+08:00",
+    "received_at": "2026-09-11T09:35:44+08:00",
+    "position": [
+      120.1015,
+      30.2029
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-046",
+    "device_at": "2026-09-11T08:03:10+08:00",
+    "received_at": "2026-09-11T09:35:45+08:00",
+    "position": [
+      120.1018,
+      30.2029
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-047",
+    "device_at": "2026-09-11T08:03:14+08:00",
+    "received_at": "2026-09-11T09:35:46+08:00",
+    "position": [
+      120.1021,
+      30.2029
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-048",
+    "device_at": "2026-09-11T08:03:18+08:00",
+    "received_at": "2026-09-11T09:35:47+08:00",
+    "position": [
+      120.1024,
+      30.2029
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-049",
+    "device_at": "2026-09-11T08:03:22+08:00",
+    "received_at": "2026-09-11T09:35:48+08:00",
+    "position": [
+      120.1027,
+      30.2029
+    ],
+    "tank_id": "TANK-01",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-050",
+    "device_at": "2026-09-11T08:03:26+08:00",
+    "received_at": "2026-09-11T09:35:49+08:00",
+    "position": [
+      120.103,
+      30.2029
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-051",
+    "device_at": "2026-09-11T08:03:30+08:00",
+    "received_at": "2026-09-11T09:35:50+08:00",
+    "position": [
+      120.1033,
+      30.2029
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-052",
+    "device_at": "2026-09-11T08:03:34+08:00",
+    "received_at": "2026-09-11T09:35:51+08:00",
+    "position": [
+      120.1036,
+      30.2029
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-053",
+    "device_at": "2026-09-11T08:03:38+08:00",
+    "received_at": "2026-09-11T09:35:52+08:00",
+    "position": [
+      120.1039,
+      30.2029
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-054",
+    "device_at": "2026-09-11T08:03:42+08:00",
+    "received_at": "2026-09-11T09:35:53+08:00",
+    "position": [
+      120.1042,
+      30.2029
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-055",
+    "device_at": "2026-09-11T08:03:46+08:00",
+    "received_at": "2026-09-11T09:35:54+08:00",
+    "position": [
+      120.1045,
+      30.2029
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-056",
+    "device_at": "2026-09-11T08:03:50+08:00",
+    "received_at": "2026-09-11T09:35:55+08:00",
+    "position": [
+      120.1045,
+      30.2032
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-057",
+    "device_at": "2026-09-11T08:03:54+08:00",
+    "received_at": "2026-09-11T09:35:56+08:00",
+    "position": [
+      120.1042,
+      30.2032
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-058",
+    "device_at": "2026-09-11T08:03:58+08:00",
+    "received_at": "2026-09-11T09:35:57+08:00",
+    "position": [
+      120.1039,
+      30.2032
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-059",
+    "device_at": "2026-09-11T08:04:02+08:00",
+    "received_at": "2026-09-11T09:35:58+08:00",
+    "position": [
+      120.1036,
+      30.2032
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-060",
+    "device_at": "2026-09-11T08:04:06+08:00",
+    "received_at": "2026-09-11T09:35:59+08:00",
+    "position": [
+      120.1033,
+      30.2032
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-061",
+    "device_at": "2026-09-11T08:04:10+08:00",
+    "received_at": "2026-09-11T09:36:00+08:00",
+    "position": [
+      120.103,
+      30.2032
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-062",
+    "device_at": "2026-09-11T08:04:14+08:00",
+    "received_at": "2026-09-11T09:36:01+08:00",
+    "position": [
+      120.1027,
+      30.2032
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-063",
+    "device_at": "2026-09-11T08:04:18+08:00",
+    "received_at": "2026-09-11T09:36:02+08:00",
+    "position": [
+      120.1024,
+      30.2032
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-064",
+    "device_at": "2026-09-11T08:04:22+08:00",
+    "received_at": "2026-09-11T09:36:03+08:00",
+    "position": [
+      120.1021,
+      30.2032
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-065",
+    "device_at": "2026-09-11T08:04:26+08:00",
+    "received_at": "2026-09-11T09:36:04+08:00",
+    "position": [
+      120.1018,
+      30.2032
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-066",
+    "device_at": "2026-09-11T08:04:30+08:00",
+    "received_at": "2026-09-11T09:36:05+08:00",
+    "position": [
+      120.1015,
+      30.2032
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-067",
+    "device_at": "2026-09-11T08:04:34+08:00",
+    "received_at": "2026-09-11T09:36:06+08:00",
+    "position": [
+      120.1015,
+      30.2035
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-068",
+    "device_at": "2026-09-11T08:04:38+08:00",
+    "received_at": "2026-09-11T09:36:07+08:00",
+    "position": [
+      120.1018,
+      30.2035
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-069",
+    "device_at": "2026-09-11T08:04:42+08:00",
+    "received_at": "2026-09-11T09:36:08+08:00",
+    "position": [
+      120.1021,
+      30.2035
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-070",
+    "device_at": "2026-09-11T08:04:46+08:00",
+    "received_at": "2026-09-11T09:36:09+08:00",
+    "position": [
+      120.1024,
+      30.2035
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-071",
+    "device_at": "2026-09-11T08:04:50+08:00",
+    "received_at": "2026-09-11T09:36:10+08:00",
+    "position": [
+      120.1027,
+      30.2035
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-072",
+    "device_at": "2026-09-11T08:04:54+08:00",
+    "received_at": "2026-09-11T09:36:11+08:00",
+    "position": [
+      120.103,
+      30.2035
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-073",
+    "device_at": "2026-09-11T08:04:58+08:00",
+    "received_at": "2026-09-11T09:36:12+08:00",
+    "position": [
+      120.1033,
+      30.2035
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-074",
+    "device_at": "2026-09-11T08:05:02+08:00",
+    "received_at": "2026-09-11T09:36:13+08:00",
+    "position": [
+      120.1036,
+      30.2035
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-075",
+    "device_at": "2026-09-11T08:05:06+08:00",
+    "received_at": "2026-09-11T09:36:14+08:00",
+    "position": [
+      120.1039,
+      30.2035
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-076",
+    "device_at": "2026-09-11T08:05:10+08:00",
+    "received_at": "2026-09-11T09:36:15+08:00",
+    "position": [
+      120.1042,
+      30.2035
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-077",
+    "device_at": "2026-09-11T08:05:14+08:00",
+    "received_at": "2026-09-11T09:36:16+08:00",
+    "position": [
+      120.1045,
+      30.2035
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-078",
+    "device_at": "2026-09-11T08:05:18+08:00",
+    "received_at": "2026-09-11T09:36:17+08:00",
+    "position": [
+      120.1045,
+      30.2038
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-079",
+    "device_at": "2026-09-11T08:05:22+08:00",
+    "received_at": "2026-09-11T09:36:18+08:00",
+    "position": [
+      120.1042,
+      30.2038
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-080",
+    "device_at": "2026-09-11T08:05:26+08:00",
+    "received_at": "2026-09-11T09:36:19+08:00",
+    "position": [
+      120.1039,
+      30.2038
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-081",
+    "device_at": "2026-09-11T08:05:30+08:00",
+    "received_at": "2026-09-11T09:36:20+08:00",
+    "position": [
+      120.1036,
+      30.2038
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-082",
+    "device_at": "2026-09-11T08:05:34+08:00",
+    "received_at": "2026-09-11T09:36:21+08:00",
+    "position": [
+      120.1033,
+      30.2038
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-083",
+    "device_at": "2026-09-11T08:05:38+08:00",
+    "received_at": "2026-09-11T09:36:22+08:00",
+    "position": [
+      120.103,
+      30.2038
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-084",
+    "device_at": "2026-09-11T08:05:42+08:00",
+    "received_at": "2026-09-11T09:36:23+08:00",
+    "position": [
+      120.1027,
+      30.2038
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-085",
+    "device_at": "2026-09-11T08:05:46+08:00",
+    "received_at": "2026-09-11T09:36:24+08:00",
+    "position": [
+      120.1024,
+      30.2038
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-086",
+    "device_at": "2026-09-11T08:05:50+08:00",
+    "received_at": "2026-09-11T09:36:25+08:00",
+    "position": [
+      120.1021,
+      30.2038
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-087",
+    "device_at": "2026-09-11T08:05:54+08:00",
+    "received_at": "2026-09-11T09:36:26+08:00",
+    "position": [
+      120.1018,
+      30.2038
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-088",
+    "device_at": "2026-09-11T08:05:58+08:00",
+    "received_at": "2026-09-11T09:36:27+08:00",
+    "position": [
+      120.1015,
+      30.2038
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-089",
+    "device_at": "2026-09-11T08:06:02+08:00",
+    "received_at": "2026-09-11T09:36:28+08:00",
+    "position": [
+      120.1015,
+      30.2041
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-090",
+    "device_at": "2026-09-11T08:06:06+08:00",
+    "received_at": "2026-09-11T09:36:29+08:00",
+    "position": [
+      120.1018,
+      30.2041
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-091",
+    "device_at": "2026-09-11T08:06:10+08:00",
+    "received_at": "2026-09-11T09:36:30+08:00",
+    "position": [
+      120.1021,
+      30.2041
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-092",
+    "device_at": "2026-09-11T08:06:14+08:00",
+    "received_at": "2026-09-11T09:36:31+08:00",
+    "position": [
+      120.1024,
+      30.2041
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-093",
+    "device_at": "2026-09-11T08:06:18+08:00",
+    "received_at": "2026-09-11T09:36:32+08:00",
+    "position": [
+      120.1027,
+      30.2041
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-094",
+    "device_at": "2026-09-11T08:06:22+08:00",
+    "received_at": "2026-09-11T09:36:33+08:00",
+    "position": [
+      120.103,
+      30.2041
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-095",
+    "device_at": "2026-09-11T08:06:26+08:00",
+    "received_at": "2026-09-11T09:36:34+08:00",
+    "position": [
+      120.1033,
+      30.2041
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-096",
+    "device_at": "2026-09-11T08:06:30+08:00",
+    "received_at": "2026-09-11T09:36:35+08:00",
+    "position": [
+      120.1036,
+      30.2041
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-097",
+    "device_at": "2026-09-11T08:06:34+08:00",
+    "received_at": "2026-09-11T14:11:36+08:00",
+    "position": [
+      120.1039,
+      30.2041
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-098",
+    "device_at": "2026-09-11T08:06:38+08:00",
+    "received_at": "2026-09-11T14:11:37+08:00",
+    "position": [
+      120.1042,
+      30.2041
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  },
+  {
+    "point_id": "A-099",
+    "device_at": "2026-09-11T08:06:42+08:00",
+    "received_at": "2026-09-11T14:11:38+08:00",
+    "position": [
+      120.1045,
+      30.2041
+    ],
+    "tank_id": "TANK-02",
+    "dose_ml_per_mu": 22.0,
+    "spray_ml": 1.91
+  }
+]

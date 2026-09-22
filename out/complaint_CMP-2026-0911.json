@@ -1,0 +1,305 @@
+{
+  "chains": [
+    {
+      "anomalies": [
+        {
+          "detail": {
+            "area_mu": 0.166793,
+            "device_span": [
+              "2026-09-11T09:06:20+08:00",
+              "2026-09-11T09:06:25+08:00"
+            ],
+            "dose_ml_per_mu": 37.471682,
+            "label_range_ml_per_mu": [
+              18.0,
+              25.0
+            ],
+            "segment_id": "SEG-2",
+            "volume_ml": 6.25
+          },
+          "first_seen_revision": 1,
+          "kind": "abnormal_dose",
+          "point_ids": [
+            "P-16",
+            "P-17"
+          ]
+        },
+        {
+          "detail": {
+            "area_mu": 1.515873,
+            "device_span": [
+              "2026-09-11T09:06:25+08:00",
+              "2026-09-11T09:06:40+08:00"
+            ],
+            "dose_ml_per_mu": 12.369112,
+            "label_range_ml_per_mu": [
+              18.0,
+              25.0
+            ],
+            "segment_id": "SEG-2",
+            "volume_ml": 18.75
+          },
+          "first_seen_revision": 1,
+          "kind": "abnormal_dose",
+          "point_ids": [
+            "P-17",
+            "P-18"
+          ]
+        },
+        {
+          "detail": {
+            "area_mu": 1.515874,
+            "device_span": [
+              "2026-09-11T09:06:40+08:00",
+              "2026-09-11T09:06:55+08:00"
+            ],
+            "dose_ml_per_mu": 12.369099,
+            "label_range_ml_per_mu": [
+              18.0,
+              25.0
+            ],
+            "segment_id": "SEG-2",
+            "volume_ml": 18.75
+          },
+          "first_seen_revision": 1,
+          "kind": "abnormal_dose",
+          "point_ids": [
+            "P-18",
+            "P-19"
+          ]
+        },
+        {
+          "detail": {
+            "buffer_m": 120.0,
+            "device_span": [
+              "2026-09-11T09:06:40+08:00",
+              "2026-09-11T09:06:40+08:00"
+            ],
+            "kind": "蜂场",
+            "min_distance_m": 38.440071,
+            "note": "喷洒状态下进入敏感区域缓冲带",
+            "sensitive_area_id": "APIARY-8",
+            "sprayed_volume_ml": 18.75
+          },
+          "first_seen_revision": 1,
+          "kind": "buffer_intrusion",
+          "point_ids": [
+            "P-18"
+          ]
+        },
+        {
+          "detail": {
+            "device_span": [
+              "2026-09-11T09:06:40+08:00",
+              "2026-09-11T09:06:40+08:00"
+            ],
+            "note": "航迹点位于田块边界之外",
+            "positions": [
+              [
+                120.1056,
+                30.203
+              ]
+            ]
+          },
+          "first_seen_revision": 1,
+          "kind": "out_of_bounds",
+          "point_ids": [
+            "P-18"
+          ]
+        },
+        {
+          "detail": {
+            "batch_id": "SYNC-A2",
+            "kept": {
+              "device_at": "2026-09-11T09:06:40+08:00",
+              "flow_ml_per_min": 75.0,
+              "point_id": "P-18",
+              "position": [
+                120.1056,
+                30.203
+              ],
+              "spraying": true,
+              "tank_id": "TANK-02"
+            },
+            "note": "同名点内容不一致，保留先到版本，后到版本未采纳",
+            "rejected": {
+              "device_at": "2026-09-11T09:06:40+08:00",
+              "flow_ml_per_min": 75.0,
+              "point_id": "P-18",
+              "position": [
+                120.1049,
+                30.203
+              ],
+              "spraying": true,
+              "tank_id": "TANK-02"
+            }
+          },
+          "first_seen_revision": 2,
+          "kind": "point_conflict",
+          "point_ids": [
+            "P-18"
+          ]
+        },
+        {
+          "detail": {
+            "batch_id": "SYNC-A1",
+            "device_at": "2026-09-11T09:00:01+08:00",
+            "previous_max_device_at": "2026-09-11T09:00:02+08:00",
+            "previous_max_point_id": "P-2"
+          },
+          "first_seen_revision": 1,
+          "kind": "time_regression",
+          "point_ids": [
+            "P-1"
+          ]
+        }
+      ],
+      "chain_role": "原任务",
+      "covers_segment_ids": [],
+      "distance_to_complaint_area_m": 38.440071,
+      "evidence": {
+        "batches": [
+          "SYNC-A1",
+          "SYNC-A2"
+        ],
+        "points_digest": "0fe6589b152bb229aed58279f8b0d026bf9d6aff01949289d036a96aca157727",
+        "revision": 2
+      },
+      "parent_task_id": null,
+      "prescription": {
+        "batch_id": "BATCH-A17-01",
+        "chemical_id": "CHEM-A17",
+        "crop": "水稻",
+        "prescription_id": "RX-204-A17",
+        "reentry_hours": 24.0,
+        "reviewer": "李岚（县植保站）",
+        "safety_interval_days": 14,
+        "signature": "890a1765e8d723e77c7416d81b81ba560ac02b580e6313383f94e054bc572df3",
+        "signed_at": "2026-09-10T18:30:00+08:00"
+      },
+      "return_decisions": [
+        {
+          "decided_at": "2026-09-11T09:07:10+08:00",
+          "reason": "风速 8.4 m/s 超过上限 6.0 m/s",
+          "segment_id": "SEG-2"
+        }
+      ],
+      "segments": {
+        "SEG-1": {
+          "coverage_mu": 0.833963,
+          "dose_ml_per_mu": 19.78505,
+          "min_distance_to_sensitive_m": {
+            "APIARY-8": 384.407181
+          },
+          "sprayed_points": 6,
+          "status": "completed",
+          "volume_ml": 16.5
+        },
+        "SEG-2": {
+          "coverage_mu": 4.032503,
+          "dose_ml_per_mu": 14.941092,
+          "min_distance_to_sensitive_m": {
+            "APIARY-8": 38.440071
+          },
+          "sprayed_points": 9,
+          "status": "returned",
+          "volume_ml": 60.25
+        },
+        "SEG-3": {
+          "coverage_mu": 0.0,
+          "dose_ml_per_mu": null,
+          "min_distance_to_sensitive_m": {
+            "APIARY-8": null
+          },
+          "sprayed_points": 0,
+          "status": "voided",
+          "volume_ml": 0.0
+        }
+      },
+      "tank_swaps": [
+        {
+          "at": "2026-09-11T09:06:00+08:00",
+          "from_batch": "BATCH-A17-01",
+          "from_tank": "TANK-01",
+          "position": [
+            120.1035,
+            30.2039
+          ],
+          "to_batch": "BATCH-A17-02",
+          "to_tank": "TANK-02"
+        }
+      ],
+      "task_id": "TASK-0907-A",
+      "totals": {
+        "coverage_mu": 4.866466,
+        "dose_ml_per_mu": 15.771198,
+        "min_distance_to_sensitive_m": {
+          "APIARY-8": 38.440071
+        },
+        "track_points": 24,
+        "volume_ml": 76.75
+      }
+    },
+    {
+      "anomalies": [],
+      "chain_role": "补飞任务",
+      "covers_segment_ids": [
+        "SEG-3"
+      ],
+      "distance_to_complaint_area_m": 144.150266,
+      "evidence": {
+        "batches": [
+          "SYNC-B1"
+        ],
+        "points_digest": "c7c442acd6afa24232897d93d8b265f7c9767f2ad9c55e46015850d95f72abfd",
+        "revision": 1
+      },
+      "parent_task_id": "TASK-0907-A",
+      "prescription": {
+        "batch_id": "BATCH-A17-01",
+        "chemical_id": "CHEM-A17",
+        "crop": "水稻",
+        "prescription_id": "RX-204-A17",
+        "reentry_hours": 24.0,
+        "reviewer": "李岚（县植保站）",
+        "safety_interval_days": 14,
+        "signature": "890a1765e8d723e77c7416d81b81ba560ac02b580e6313383f94e054bc572df3",
+        "signed_at": "2026-09-10T18:30:00+08:00"
+      },
+      "return_decisions": [],
+      "segments": {
+        "SEG-3B": {
+          "coverage_mu": 1.501134,
+          "dose_ml_per_mu": 19.984891,
+          "min_distance_to_sensitive_m": {
+            "APIARY-8": 144.150266
+          },
+          "sprayed_points": 10,
+          "status": "completed",
+          "volume_ml": 30.0
+        }
+      },
+      "tank_swaps": [],
+      "task_id": "TASK-0907-B",
+      "totals": {
+        "coverage_mu": 1.501134,
+        "dose_ml_per_mu": 19.984891,
+        "min_distance_to_sensitive_m": {
+          "APIARY-8": 144.150266
+        },
+        "track_points": 12,
+        "volume_ml": 30.0
+      }
+    }
+  ],
+  "complaint_id": "CMP-2026-0911",
+  "description": "蜂群大量死亡，怀疑邻近田块飞防飘移药害",
+  "field_id": "FIELD-204",
+  "filed_at": "2026-09-11T20:00:00+08:00",
+  "filed_by": "蜂场负责人 周某",
+  "sensitive_area_id": "APIARY-8",
+  "window": [
+    "2026-09-11T06:00:00+08:00",
+    "2026-09-12T12:00:00+08:00"
+  ]
+}

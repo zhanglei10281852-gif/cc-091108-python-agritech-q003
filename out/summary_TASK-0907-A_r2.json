@@ -1,0 +1,308 @@
+{
+  "content": {
+    "anomalies": {
+      "abnormal_dose": [
+        {
+          "detail": {
+            "area_mu": 0.166793,
+            "device_span": [
+              "2026-09-11T09:06:20+08:00",
+              "2026-09-11T09:06:25+08:00"
+            ],
+            "dose_ml_per_mu": 37.471682,
+            "label_range_ml_per_mu": [
+              18.0,
+              25.0
+            ],
+            "segment_id": "SEG-2",
+            "volume_ml": 6.25
+          },
+          "first_seen_revision": 1,
+          "kind": "abnormal_dose",
+          "point_ids": [
+            "P-16",
+            "P-17"
+          ]
+        },
+        {
+          "detail": {
+            "area_mu": 1.515873,
+            "device_span": [
+              "2026-09-11T09:06:25+08:00",
+              "2026-09-11T09:06:40+08:00"
+            ],
+            "dose_ml_per_mu": 12.369112,
+            "label_range_ml_per_mu": [
+              18.0,
+              25.0
+            ],
+            "segment_id": "SEG-2",
+            "volume_ml": 18.75
+          },
+          "first_seen_revision": 1,
+          "kind": "abnormal_dose",
+          "point_ids": [
+            "P-17",
+            "P-18"
+          ]
+        },
+        {
+          "detail": {
+            "area_mu": 1.515874,
+            "device_span": [
+              "2026-09-11T09:06:40+08:00",
+              "2026-09-11T09:06:55+08:00"
+            ],
+            "dose_ml_per_mu": 12.369099,
+            "label_range_ml_per_mu": [
+              18.0,
+              25.0
+            ],
+            "segment_id": "SEG-2",
+            "volume_ml": 18.75
+          },
+          "first_seen_revision": 1,
+          "kind": "abnormal_dose",
+          "point_ids": [
+            "P-18",
+            "P-19"
+          ]
+        }
+      ],
+      "buffer_intrusion": [
+        {
+          "detail": {
+            "buffer_m": 120.0,
+            "device_span": [
+              "2026-09-11T09:06:40+08:00",
+              "2026-09-11T09:06:40+08:00"
+            ],
+            "kind": "蜂场",
+            "min_distance_m": 38.440071,
+            "note": "喷洒状态下进入敏感区域缓冲带",
+            "sensitive_area_id": "APIARY-8",
+            "sprayed_volume_ml": 18.75
+          },
+          "first_seen_revision": 1,
+          "kind": "buffer_intrusion",
+          "point_ids": [
+            "P-18"
+          ]
+        }
+      ],
+      "no_fly_intrusion": [],
+      "out_of_bounds": [
+        {
+          "detail": {
+            "device_span": [
+              "2026-09-11T09:06:40+08:00",
+              "2026-09-11T09:06:40+08:00"
+            ],
+            "note": "航迹点位于田块边界之外",
+            "positions": [
+              [
+                120.1056,
+                30.203
+              ]
+            ]
+          },
+          "first_seen_revision": 1,
+          "kind": "out_of_bounds",
+          "point_ids": [
+            "P-18"
+          ]
+        }
+      ],
+      "point_conflict": [
+        {
+          "detail": {
+            "batch_id": "SYNC-A2",
+            "kept": {
+              "device_at": "2026-09-11T09:06:40+08:00",
+              "flow_ml_per_min": 75.0,
+              "point_id": "P-18",
+              "position": [
+                120.1056,
+                30.203
+              ],
+              "spraying": true,
+              "tank_id": "TANK-02"
+            },
+            "note": "同名点内容不一致，保留先到版本，后到版本未采纳",
+            "rejected": {
+              "device_at": "2026-09-11T09:06:40+08:00",
+              "flow_ml_per_min": 75.0,
+              "point_id": "P-18",
+              "position": [
+                120.1049,
+                30.203
+              ],
+              "spraying": true,
+              "tank_id": "TANK-02"
+            }
+          },
+          "first_seen_revision": 2,
+          "kind": "point_conflict",
+          "point_ids": [
+            "P-18"
+          ]
+        }
+      ],
+      "time_regression": [
+        {
+          "detail": {
+            "batch_id": "SYNC-A1",
+            "device_at": "2026-09-11T09:00:01+08:00",
+            "previous_max_device_at": "2026-09-11T09:00:02+08:00",
+            "previous_max_point_id": "P-2"
+          },
+          "first_seen_revision": 1,
+          "kind": "time_regression",
+          "point_ids": [
+            "P-1"
+          ]
+        }
+      ]
+    },
+    "changes_vs_previous": [
+      "定位点 22 → 24 个",
+      "新增异常项：point_conflict:P-18"
+    ],
+    "covers_segment_ids": [],
+    "inputs": {
+      "batches": [
+        {
+          "batch_id": "SYNC-A1",
+          "points": 22,
+          "sha256": "7152ef73bcf1cccee8841ca4dfdaba549af6d912ea8b03f42d745ac18fa0a2c1"
+        },
+        {
+          "batch_id": "SYNC-A2",
+          "points": 3,
+          "sha256": "981c7e20deece414624f736d00d382dd56ba2a5587731902a40c7dd109ea3eae"
+        }
+      ],
+      "points_digest": "0fe6589b152bb229aed58279f8b0d026bf9d6aff01949289d036a96aca157727"
+    },
+    "parent_task_id": null,
+    "prescription": {
+      "batch_id": "BATCH-A17-01",
+      "chemical_id": "CHEM-A17",
+      "crop": "水稻",
+      "dose_ml_per_mu": 20.0,
+      "prescription_id": "RX-204-A17",
+      "reentry_hours": 24.0,
+      "reviewer": "李岚（县植保站）",
+      "safety_interval_days": 14,
+      "signature": "890a1765e8d723e77c7416d81b81ba560ac02b580e6313383f94e054bc572df3",
+      "signed_at": "2026-09-10T18:30:00+08:00"
+    },
+    "prescription_findings": [
+      {
+        "finding": "tank_batch_mismatch",
+        "loaded_batch": "BATCH-A17-02",
+        "note": "药箱 TANK-02 装载批次 BATCH-A17-02 与处方批次 BATCH-A17-01 不符",
+        "prescribed_batch": "BATCH-A17-01",
+        "tank_id": "TANK-02"
+      }
+    ],
+    "return_decisions": [
+      {
+        "decided_at": "2026-09-11T09:07:10+08:00",
+        "rain_mm_per_h": 0.0,
+        "reason": "风速 8.4 m/s 超过上限 6.0 m/s",
+        "segment_id": "SEG-2",
+        "wind_m_s": 8.4
+      }
+    ],
+    "revision": 2,
+    "schema": "sprayops.summary/1",
+    "segment_states": {
+      "SEG-1": {
+        "ended_at": "2026-09-11T09:00:36+08:00",
+        "started_at": "2026-09-11T09:00:08+08:00",
+        "status": "completed",
+        "void_reason": null
+      },
+      "SEG-2": {
+        "ended_at": "2026-09-11T09:07:10+08:00",
+        "started_at": "2026-09-11T09:02:05+08:00",
+        "status": "returned",
+        "void_reason": null
+      },
+      "SEG-3": {
+        "ended_at": "2026-09-11T09:07:10+08:00",
+        "started_at": null,
+        "status": "voided",
+        "void_reason": "风速 8.4 m/s 超过上限 6.0 m/s"
+      }
+    },
+    "segments": {
+      "SEG-1": {
+        "coverage_mu": 0.833963,
+        "dose_ml_per_mu": 19.78505,
+        "min_distance_to_sensitive_m": {
+          "APIARY-8": 384.407181
+        },
+        "sprayed_points": 6,
+        "status": "completed",
+        "volume_ml": 16.5
+      },
+      "SEG-2": {
+        "coverage_mu": 4.032503,
+        "dose_ml_per_mu": 14.941092,
+        "min_distance_to_sensitive_m": {
+          "APIARY-8": 38.440071
+        },
+        "sprayed_points": 9,
+        "status": "returned",
+        "volume_ml": 60.25
+      },
+      "SEG-3": {
+        "coverage_mu": 0.0,
+        "dose_ml_per_mu": null,
+        "min_distance_to_sensitive_m": {
+          "APIARY-8": null
+        },
+        "sprayed_points": 0,
+        "status": "voided",
+        "volume_ml": 0.0
+      }
+    },
+    "supersedes": "2f1a000c88595e1fd1c6d35bc62d72a2e041f51086af299ab8960de78f353be0",
+    "tank_swaps": [
+      {
+        "at": "2026-09-11T09:06:00+08:00",
+        "from_batch": "BATCH-A17-01",
+        "from_tank": "TANK-01",
+        "position": [
+          120.1035,
+          30.2039
+        ],
+        "to_batch": "BATCH-A17-02",
+        "to_tank": "TANK-02"
+      }
+    ],
+    "tank_volume_ml": {
+      "TANK-01": 23.1,
+      "TANK-02": 53.65
+    },
+    "task_id": "TASK-0907-A",
+    "totals": {
+      "coverage_mu": 4.866466,
+      "dose_ml_per_mu": 15.771198,
+      "min_distance_to_sensitive_m": {
+        "APIARY-8": 38.440071
+      },
+      "track_points": 24,
+      "volume_ml": 76.75
+    },
+    "unattributed": {
+      "coverage_mu": 0.0,
+      "intervals": [],
+      "volume_ml": 0.0
+    }
+  },
+  "exported_at": "2026-09-11T19:00:00+08:00",
+  "sha256": "0a2361c05fccd0233f8ddfaee41c883d5e2ebfec16010e128f481edabf769aad"
+}

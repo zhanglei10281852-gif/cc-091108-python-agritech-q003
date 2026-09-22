@@ -1,0 +1,85 @@
+{
+  "content": {
+    "anomalies": {
+      "abnormal_dose": [],
+      "buffer_intrusion": [],
+      "no_fly_intrusion": [],
+      "out_of_bounds": [],
+      "point_conflict": [],
+      "time_regression": []
+    },
+    "changes_vs_previous": [],
+    "covers_segment_ids": [
+      "SEG-3"
+    ],
+    "inputs": {
+      "batches": [
+        {
+          "batch_id": "SYNC-B1",
+          "points": 12,
+          "sha256": "c7c442acd6afa24232897d93d8b265f7c9767f2ad9c55e46015850d95f72abfd"
+        }
+      ],
+      "points_digest": "c7c442acd6afa24232897d93d8b265f7c9767f2ad9c55e46015850d95f72abfd"
+    },
+    "parent_task_id": "TASK-0907-A",
+    "prescription": {
+      "batch_id": "BATCH-A17-01",
+      "chemical_id": "CHEM-A17",
+      "crop": "水稻",
+      "dose_ml_per_mu": 20.0,
+      "prescription_id": "RX-204-A17",
+      "reentry_hours": 24.0,
+      "reviewer": "李岚（县植保站）",
+      "safety_interval_days": 14,
+      "signature": "890a1765e8d723e77c7416d81b81ba560ac02b580e6313383f94e054bc572df3",
+      "signed_at": "2026-09-10T18:30:00+08:00"
+    },
+    "prescription_findings": [],
+    "return_decisions": [],
+    "revision": 1,
+    "schema": "sprayops.summary/1",
+    "segment_states": {
+      "SEG-3B": {
+        "ended_at": "2026-09-12T08:01:00+08:00",
+        "started_at": "2026-09-12T08:00:02+08:00",
+        "status": "completed",
+        "void_reason": null
+      }
+    },
+    "segments": {
+      "SEG-3B": {
+        "coverage_mu": 1.501134,
+        "dose_ml_per_mu": 19.984891,
+        "min_distance_to_sensitive_m": {
+          "APIARY-8": 144.150266
+        },
+        "sprayed_points": 10,
+        "status": "completed",
+        "volume_ml": 30.0
+      }
+    },
+    "supersedes": null,
+    "tank_swaps": [],
+    "tank_volume_ml": {
+      "TANK-03": 30.0
+    },
+    "task_id": "TASK-0907-B",
+    "totals": {
+      "coverage_mu": 1.501134,
+      "dose_ml_per_mu": 19.984891,
+      "min_distance_to_sensitive_m": {
+        "APIARY-8": 144.150266
+      },
+      "track_points": 12,
+      "volume_ml": 30.0
+    },
+    "unattributed": {
+      "coverage_mu": 0.0,
+      "intervals": [],
+      "volume_ml": 0.0
+    }
+  },
+  "exported_at": "2026-09-12T09:00:00+08:00",
+  "sha256": "19425fcc89987a8af45821bc731b1b0d67ccfe8fbf60df7cecda3441f4c00dff"
+}
